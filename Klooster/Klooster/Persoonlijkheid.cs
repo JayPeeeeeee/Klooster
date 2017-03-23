@@ -37,11 +37,6 @@ namespace Klooster
 
         public override string ToString()
         {
-            return string.Format("{0} {1}", TranslateGoedheid(), TranslateCreativiteit());
-        }
-
-        private string TranslateGoedheid()
-        {
             string sGoedheid = string.Empty;
             if (_iGoedheid >= 0 && _iGoedheid <= 33)
             {
@@ -55,11 +50,7 @@ namespace Klooster
             {
                 sGoedheid = "good";
             }
-            return sGoedheid;
-        }
 
-        private string TranslateCreativiteit()
-        {
             string sCreativiteit = string.Empty;
             if (_iCreativiteit >= 0 && _iCreativiteit <= 33)
             {
@@ -73,7 +64,8 @@ namespace Klooster
             {
                 sCreativiteit = "chaotic";
             }
-            return sCreativiteit;
+
+            return string.Format("{0} {1}", sGoedheid, sCreativiteit);
         }
     }
 }
