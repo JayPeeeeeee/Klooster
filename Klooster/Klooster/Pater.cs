@@ -136,6 +136,11 @@ namespace Klooster
             _persoonlijkheid = new Persoonlijkheid(iNieuweGoedheid, iNieuweCreativiteit);
         }
 
+        public override string ToString()
+        {
+            return string.Format("Pater {0}, {1}, {2} gedachten aan zijn hoofd.", _sNaam, _persoonlijkheid.ToString(), _liGedachtes.Count);
+        }
+
         private void OrdenGoedheidsgewijs()
         {
             List<Gedachte> liGeordendeGedachtes = new List<Gedachte>();
@@ -198,11 +203,6 @@ namespace Klooster
                 liGeordendeGedachtes.Add(new Gedachte(iConcept, new Persoonlijkheid(iGoedheid / iAantalGedachtes, iCreativiteit / iAantalGedachtes)));
             }
             _liGedachtes = liGeordendeGedachtes;
-        }
-
-        public override string ToString()
-        {
-            return string.Format("Pater {0}, {1}, {2} gedachten aan zijn hoofd.", _sNaam, _persoonlijkheid.ToString(), _liGedachtes.Count);
         }
     }
 }

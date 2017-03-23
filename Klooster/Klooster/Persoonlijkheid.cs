@@ -11,15 +11,15 @@ namespace Klooster
     {        
         private int _iGoedheid;
         private int _iCreativiteit;
+        private static readonly Random _random = new Random();
 
         public int Goedheid { get { return _iGoedheid; } }
         public int Creativiteit { get { return _iCreativiteit; } }
 
         public Persoonlijkheid()
         {
-            Random random = new Random();
-            _iGoedheid = random.Next(0, 99);
-            _iCreativiteit = random.Next(0, 99);
+            _iGoedheid = _random.Next(0, 99);
+            _iCreativiteit = _random.Next(0, 99);
         }
 
         public Persoonlijkheid(int iGoedheid, int iCreativiteit)
