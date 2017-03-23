@@ -10,3 +10,9 @@ C:\Users\Jason\Downloads\Klooster-master\Klooster-master\Klooster\Klooster\obj\D
 C:\Users\Jason\Downloads\Klooster-master\Klooster-master\Klooster\Klooster\bin\Debug\Klooster.exe
 C:\Users\Jason\Downloads\Klooster-master\Klooster-master\Klooster\Klooster\bin\Debug\Klooster.pdb
 C:\Users\Jason\Downloads\Klooster-master\Klooster-master\Klooster\Klooster\obj\Debug\Klooster.csprojResolveAssemblyReference.cache
+C:\Users\JayPeeeeeee\Documents\GitHub\Klooster\Klooster\Klooster\bin\Debug\Klooster.exe.config
+C:\Users\JayPeeeeeee\Documents\GitHub\Klooster\Klooster\Klooster\obj\Debug\Klooster.exe
+C:\Users\JayPeeeeeee\Documents\GitHub\Klooster\Klooster\Klooster\obj\Debug\Klooster.pdb
+C:\Users\JayPeeeeeee\Documents\GitHub\Klooster\Klooster\Klooster\bin\Debug\Klooster.exe
+C:\Users\JayPeeeeeee\Documents\GitHub\Klooster\Klooster\Klooster\bin\Debug\Klooster.pdb
+C:\Users\JayPeeeeeee\Documents\GitHub\Klooster\Klooster\Klooster\obj\Debug\Klooster.csprojResolveAssemblyReference.cache
